@@ -12,12 +12,13 @@ import {
   View
 } from 'react-native';
 
+
 export default class TypescriptTest3 extends Component<Props,State> {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!!!
+          1Welcome to React Native!!!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
@@ -49,7 +50,7 @@ const styles = StyleSheet.create<Style>({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#F5FCFF'
   },
   welcome: {
     fontSize: 20,
